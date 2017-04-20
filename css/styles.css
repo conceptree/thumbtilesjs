@@ -1,0 +1,13 @@
+body,html{
+    padding:0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+    outline: none;
+    border:none;
+}
