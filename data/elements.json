@@ -10,7 +10,7 @@
         "id": 2,
         "title": "Element Title",
         "description": "This is an example for a long description text showing how it will look with ellipses.",
-        "thumb":"../imgs/img2.jpg",
+        "thumb":"../../imgs/img2.jpg",
         "date": "00-00-0000"
     },
     {
