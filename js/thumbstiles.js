@@ -4,6 +4,7 @@ function initThumbJs(tjsOptions) {
 
     var self = this;
     var elementsData;
+    var elementsLoaded = [];
     var resposive = tjsOptions.responsive;
     var selector = document.getElementsByClassName(tjsOptions.mainSelector)[0];
 
@@ -33,13 +34,43 @@ function initThumbJs(tjsOptions) {
 
     };
 
+    /* Check window size changes */
+    function getScreenChanges() {
+
+        var colsPerWindsize = 0;
+
+        if (window.innerWidth > 992 && window.innerWidth < 1280) {
+            colsPerWindsize = 3;
+        }
+        if (window.innerWidth > 1280 && window.innerWidth < 1650) {
+            colsPerWindsize = 4;
+        }
+        if (window.innerWidth > 1650) {
+            colsPerWindsize = 5;
+        }
+        if (window.innerWidth < 992 && window.innerWidth > 750) {
+            colsPerWindsize = 3;
+        }
+        if (window.innerWidth < 750) {
+            colsPerWindsize = 1;
+        }
+
+        window.onresize = function () {
+            selector.innerHTML = "";
+            startBuilding();
+        }
+
+        return colsPerWindsize;
+
+    }
+
     /*BUILD ALL COLUMNS */
     function buildCols(numbOfCols) {
 
         for (var i = 0; i < numbOfCols; i++) {
             var column = document.createElement('div');
             column.className = "tjs-column";
-            column.id = "column_"+i;
+            column.id = "column_" + i;
             selector.appendChild(column);
         }
 
@@ -51,28 +82,41 @@ function initThumbJs(tjsOptions) {
     function insertElements(numbOfCols) {
 
         var numbOfElements = tjsOptions.eachLoad;
+        var currentCol = 0;
 
-        if(tjsOptions.loadAll){
+        if (tjsOptions.loadAll) {
             numbOfElements = elementsData.length;
         }
 
-        for(var i=0; i < numbOfElements; i++){
+        for (var i = 0; i < numbOfElements; i++) {
+
+            elementsLoaded.push(elementsData[i]);
 
             var element = document.createElement('div');
             var image = document.createElement('img');
             var title = document.createElement('h1');
-            var description =  document.createComment('p');
+            var description = document.createElement('p');
+            var currentColumn = null;
 
             image.src = elementsData[i].thumb;
             title.innerHTML = elementsData[i].title;
             description.innerHTML = elementsData[i].description;
 
             element.className = "tjs-element";
-            element.id = 'element_'+i;
-            element.appendChild(image,title,description);
+            element.id = 'element_' + i;
+            element.appendChild(image);
+            element.appendChild(title);
+            element.appendChild(description);
 
-            if(i < numbOfCols){
-                var currentColumn = document.getElementById('column_'+i);
+            if (currentCol < numbOfCols && i > 0) {
+                currentCol++;
+            } else {
+                currentCol = 0;
+            }
+
+            currentColumn = document.getElementById('column_' + currentCol);
+
+            if (currentColumn) {
                 currentColumn.appendChild(element);
             }
 
@@ -81,9 +125,7 @@ function initThumbJs(tjsOptions) {
 
     }
 
-
     getElements();
-
 
 }
 
@@ -94,7 +136,7 @@ var tjsOptions = {
     elementsUrl: "../data/elements.json",
     eachLoad: 20,
     loadAll: true,
-    responsive: false
+    responsive: true
 
 }
 

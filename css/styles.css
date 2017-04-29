@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
 body,html{
     padding:0px;
     margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     overflow-x:hidden;
 	overflow-y:auto;	
@@ -26,9 +29,6 @@ body,html{
     width:100%;
 	display:flex;
 	align-items:flex-start;
-	padding:10%;
-	padding-top:0px;
-	padding-bottom:60px;
 	pointer-events:none;	
 }
 
@@ -36,18 +36,21 @@ body,html{
 	flex:1;
 	color:green;
 	pointer-events:auto;
+    padding: 10px;
 }
 
 .tjs-element{
 	display:block;
-	padding:10px;
+    overflow: hidden;
 	width:100%;
+    box-shadow: 1px 1px 1px 1px #cacaca;
+    margin-bottom: 10px;
 }
 
 .tjs-element>h1, .tjs-element>p{
     width: 100%;
-    padding: 5px;
-    text-align: center;
+    padding: 10px;
+    text-align: left;
 }
 
 .tjs-element>h1{
