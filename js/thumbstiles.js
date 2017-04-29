@@ -11,14 +11,15 @@ function initThumbJs(tjsOptions) {
     /*GET JSON DATA*/
     function getElements() {
         var requester = new XMLHttpRequest();
+        requester.overrideMimeType("application/json");
         requester.open("GET", "../data/elements.json", true);
-        requester.send();
         requester.onreadystatechange = function () {
             if (requester.status == 200 && requester.readyState === 4) {
                 elementsData = JSON.parse(this.responseText);
                 startBuilding();
             }
         };
+        requester.send(null);
     }
 
     /*BUILD ALL BLOCKS */
