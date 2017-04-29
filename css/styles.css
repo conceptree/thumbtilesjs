@@ -2,6 +2,14 @@ body,html{
     padding:0px;
     margin: 0px;
     font-size: 20px;
+    overflow-x:hidden;
+	overflow-y:auto;	
+	font-style:normal;
+	-webkit-user-select:none;
+	-moz-user-select:none;	
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *{
@@ -10,4 +18,49 @@ body,html{
     clear: both;
     outline: none;
     border:none;
+}
+
+/* Main Styles */
+
+.tjs-main-container{
+    width:100%;
+	display:flex;
+	align-items:flex-start;
+	padding:10%;
+	padding-top:0px;
+	padding-bottom:60px;
+	pointer-events:none;	
+}
+
+.tjs-column{
+	flex:1;
+	color:green;
+	pointer-events:auto;
+}
+
+.tjs-element{
+	display:block;
+	padding:10px;
+	width:100%;
+}
+
+.tjs-element>h1, .tjs-element>p{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.tjs-element>h1{
+    font-size: 1em;
+    color:#999999;
+}
+
+.tjs-element>p{
+    font-size: 0.8em;
+    color:#cacaca;
+}
+
+.tjs-element>img{
+    width:100%;
+    height: auto;
 }

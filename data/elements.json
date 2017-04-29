@@ -1,0 +1,101 @@
+[
+    {
+        "id": 0,
+        "title": "Element Title",
+        "description": "This is an example for a short description.",
+        "thumb":"../imgs/img1.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 2,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img2.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 3,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img3.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 4,
+        "title": "Element Title",
+        "description": "This is an example for a short description.",
+        "thumb":"../imgs/img4.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 5,
+        "title": "Element Title",
+        "description": "This is an example for a short description.",
+        "thumb":"../imgs/img5.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id":6,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img6.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 7,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img7.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 8,
+        "title": "Element Title",
+        "description": "This is an example for a short description.",
+        "thumb":"../imgs/img1.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 9,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img2.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 10,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img3.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 11,
+        "title": "Element Title",
+        "description": "This is an example for a short description.",
+        "thumb":"../imgs/img4.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 12,
+        "title": "Element Title",
+        "description": "This is an example for a short description.",
+        "thumb":"../imgs/img5.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id":13,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img6.jpg",
+        "date": "00-00-0000"
+    },
+    {
+        "id": 14,
+        "title": "Element Title",
+        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "thumb":"../imgs/img7.jpg",
+        "date": "00-00-0000"
+    }
+    
+]
