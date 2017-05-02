@@ -13,11 +13,9 @@ function initThumbJs(tjsOptions) {
         var requester = new XMLHttpRequest();
         requester.overrideMimeType("application/json");
         requester.open("GET", "https://github.com/conceptree/thumbtilesjs/blob/master/data/elements.json", true);
-        requester.onreadystatechange = function () {
-            if (requester.status == 200 && requester.readyState === 4) {
+        requester.onload = function () {
                 elementsData = JSON.parse(this.responseText);
                 startBuilding();
-            }
         };
         requester.send(null);
     }
