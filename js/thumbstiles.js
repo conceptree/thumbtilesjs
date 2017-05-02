@@ -11,7 +11,7 @@ function initThumbJs(tjsOptions) {
     /*GET JSON DATA*/
     function getElements() {
         var requester = new XMLHttpRequest();
-        requester.open("GET", "https://github.com/conceptree/thumbtilesjs/blob/master/data/elements.json", true);
+        requester.open("GET", "https://github.com/conceptree/thumbtilesjs/data/elements.json", true);
         requester.onload = function () {
                 elementsData = JSON.parse(this.responseText);
                 startBuilding();
