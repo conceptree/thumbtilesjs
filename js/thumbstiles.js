@@ -12,7 +12,7 @@ function initThumbJs(tjsOptions) {
     function getElements() {
         var requester = new XMLHttpRequest();
         requester.overrideMimeType("application/json");
-        requester.open("GET", "../data/elements.json", true);
+        requester.open("GET", "https://github.com/conceptree/thumbtilesjs/blob/master/data/elements.json", true);
         requester.onreadystatechange = function () {
             if (requester.status == 200 && requester.readyState === 4) {
                 elementsData = JSON.parse(this.responseText);
