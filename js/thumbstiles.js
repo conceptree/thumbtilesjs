@@ -127,16 +127,3 @@ function initThumbJs(tjsOptions) {
     getElements();
 
 }
-
-var tjsOptions = {
-
-    defaulCols: 4,
-    mainSelector: "tjs-main-container",
-    elementsUrl: "https://raw.githubusercontent.com/conceptree/thumbtilesjs/master/",
-    eachLoad: 20,
-    loadAll: true,
-    responsive: true
-
-}
-
-initThumbJs(tjsOptions);
