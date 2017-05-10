@@ -9,14 +9,14 @@
     {
         "id": 2,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"2.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 3,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"3.jpg",
         "date": "00-00-0000"
     },
@@ -37,14 +37,14 @@
     {
         "id":6,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 7,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     },
@@ -58,14 +58,14 @@
     {
         "id": 9,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"2.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 10,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"3.jpg",
         "date": "00-00-0000"
     },
@@ -86,14 +86,14 @@
     {
         "id":13,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 14,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     },
@@ -114,14 +114,14 @@
     {
         "id":17,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 18,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     }
@@ -129,14 +129,14 @@
     {
         "id":19,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 20,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     },{
@@ -149,14 +149,14 @@
     {
         "id": 22,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"2.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 23,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"3.jpg",
         "date": "00-00-0000"
     },
@@ -177,14 +177,14 @@
     {
         "id": 26,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 27,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     },
@@ -198,14 +198,14 @@
     {
         "id": 29,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"2.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 30,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"3.jpg",
         "date": "00-00-0000"
     },
@@ -226,14 +226,14 @@
     {
         "id": 33,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 34,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     },
@@ -254,14 +254,14 @@
     {
         "id": 37,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 38,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     }
@@ -269,14 +269,14 @@
     {
         "id": 39,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"6.jpg",
         "date": "00-00-0000"
     },
     {
         "id": 40,
         "title": "Element Title",
-        "description": "This is an example for a long description text showing how it will look with ellipses.",
+        "description": "This is an example for a long description text showing how it will look with ellipses as the text reaches 2 lines limit.",
         "thumb":"7.jpg",
         "date": "00-00-0000"
     }

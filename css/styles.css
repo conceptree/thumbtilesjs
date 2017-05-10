@@ -40,7 +40,6 @@ body,html{
 }
 
 .tjs-element{
-	display:block;
     overflow: hidden;
 	width:100%;
     box-shadow: 1px 1px 1px 1px #cacaca;
@@ -60,7 +59,15 @@ body,html{
 
 .tjs-element>p{
     font-size: 0.8em;
-    color:#cacaca;
+    color: #cacaca;
+    height: 35px;
+    width: 95%;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .tjs-element>img{
