@@ -4,6 +4,7 @@ function initThumbJs(tjsOptions) {
 
     var self = this;
     var elementsData;
+    var elementsUrl = tjsOptions.elementsUrl;
     var elementsLoaded = [];
     var resposive = tjsOptions.responsive;
     var selector = document.getElementsByClassName(tjsOptions.mainSelector)[0];
@@ -11,7 +12,7 @@ function initThumbJs(tjsOptions) {
     /*GET JSON DATA*/
     function getElements() {
         var requester = new XMLHttpRequest();
-        requester.open("GET","https://raw.githubusercontent.com/conceptree/thumbtilesjs/master/data/elements.json", true);
+        requester.open("GET",elementsUrl+"data/elements.json", true);
         requester.onload = function () {
                 elementsData = JSON.parse(this.responseText);
                 startBuilding();
@@ -96,7 +97,7 @@ function initThumbJs(tjsOptions) {
             var description = document.createElement('p');
             var currentColumn = null;
 
-            image.src = elementsData[i].thumb;
+            image.src = elementsUrl+'imgs/'+elementsData[i].thumb;
             title.innerHTML = elementsData[i].title;
             description.innerHTML = elementsData[i].description;
 
@@ -131,7 +132,7 @@ var tjsOptions = {
 
     defaulCols: 4,
     mainSelector: "tjs-main-container",
-    elementsUrl: "../data/elements.json",
+    elementsUrl: "https://raw.githubusercontent.com/conceptree/thumbtilesjs/master/",
     eachLoad: 20,
     loadAll: true,
     responsive: true
